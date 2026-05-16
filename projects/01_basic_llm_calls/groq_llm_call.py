@@ -14,7 +14,6 @@ load_dotenv()
 
 # 2. Read the key (debug line)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("GROQ_API_KEY =", GROQ_API_KEY)  # Check if it is read correctly
 
 # 3. Check if the key is present
 if not GROQ_API_KEY:
