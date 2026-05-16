@@ -1,0 +1,22 @@
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+.venv/
+venv/
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python build files
+*.pyc
+*.pyo
+dist/
+build/
