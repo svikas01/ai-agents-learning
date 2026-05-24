@@ -6,7 +6,7 @@ This is my **AI‑agentic skills portfolio** where I learn and practice:
 - Basic LLM calls and chat models  
 - Prompt engineering  
 - Retrieval‑Augmented Generation (RAG)  
-- AI agents and agentic workflows  
+- AI agents and agentic workflows    
 - Real‑world use cases (e.g., resume/CV analysis, HR‑assistant patterns)
 
 This repo is beginner‑friendly and grows over time.  
@@ -29,18 +29,20 @@ You can treat it as a **mini‑AI‑agent course** plus a portfolio.
 
 ```text
 .
-├── README.md                     # This file
-├── LICENSE                       # License (MIT)
-├── projects/                     # AI and agent mini‑projects
-│   ├── 01_basic_llm_calls/       # Simple LLM chat
+├── README.md                         # This file
+├── LICENSE                           # License (MIT)
+├── projects/                         # AI and agent mini‑projects
+│   ├── 01_basic_llm_calls/           # Simple LLM chat
 │   ├── 02_simple_prompt_templates/ 
-│   ├── 03_rag_cv_search/         # RAG on CV/resume
-│   ├── 04_basic_agent/           # Simple search / tool agent
-│   ├── 05_agent_with_memory/     # Agent with chat history
-│   └── 06_agent_task_coordinator/# Multi‑step “career‑assistant” style agent
-├── notebooks/                    # Jupyter notebooks (optional)
-├── src/                          # Reusable code (agents, tools, utils)
-└── tests/                        # Tests (as the repo matures)
+│   ├── 03_rag_cv_search/             # RAG on CV/resume
+│   ├── 04_basic_agent/               # Simple search / tool agent
+│   ├── 05_agent_with_memory/         # Agent with chat history
+│   └── 06_agent_task_coordinator/    # Multi‑step “career‑assistant” style agent
+│   └── 07_agent_with_tools           # Examples of using tools in agents
+│   └── 08_ai_powered_math_assistant/ # Math Assistant Agent for Simple Calculations
+├── notebooks/                        # Jupyter notebooks (optional)
+├── src/                              # Reusable code (agents, tools, utils)
+└── tests/                            # Tests (as the repo matures)
 ```
 
 ---
@@ -68,26 +70,11 @@ You can treat it as a **mini‑AI‑agent course** plus a portfolio.
 5. **Agent with memory**  
    → `projects/05_agent_with_memory`  
 6. **Coordinator / multi‑step agent**  
-   → `projects/06_agent_task_coordinator`  
-
----
-
-## 📝 How you can benefit
-
-- **Recruiters / HR**  
-  You get a clean, structured view of my AI‑agent skills, progression, and problem‑solving approach.
-
-- **Developers / AI practitioners**  
-  You can borrow structure, patterns, or project ideas for your own agent‑based learning.
-
----
-
-## 🎯 Long‑term vision
-
-In 6–12 months this will become a small **AI‑agent showcase**, including:
-- Demo‑ready agents (e.g., HR assistant, CV‑analyst)  
-- Clean READMEs with screenshots / GIFs  
-- Unit tests and documentation
+   → `projects/06_agent_task_coordinator`
+6. **Agent with tools**  
+   → `projects/07_agent_with_tools`
+6. **Basic Arithmetic Assistant Agent with tools**  
+   → `projects/08_AI_powered_math_assistant`
 
 ---
 
