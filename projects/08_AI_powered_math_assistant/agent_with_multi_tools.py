@@ -13,7 +13,7 @@ from langchain_openai import ChatOpenAI
 from langchain.tools import tool
 
 
-from langchain_classic.agents import AgentExecutor, create_react_agent, create_tool_calling_agent
+from langchain_classic.agents import AgentExecutor, create_tool_calling_agent
 
 
 # Loading environment variables to get the OpenAI API key
