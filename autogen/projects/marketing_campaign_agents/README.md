@@ -593,20 +593,9 @@ A rule that tells the group chat when to stop. Without it, agents would keep tal
 ```
 project/
 ├── marketing_campaign_agents.py   # Main script
-├── .env                           # API key (DO NOT commit to Git)
-├── .gitignore                     # Should include .env
 └── README.md                      # This file
 ```
 
-### Recommended `.gitignore`
-
-```
-.env
-__pycache__/
-*.pyc
-```
-
----
 
 ## License
 
